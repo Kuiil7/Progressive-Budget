@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Budget Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-content">
+
+            <h1>Budget Tracker</h1>
+            <h3>Total: $<span id="total">0</span></h3>
+            <div class="input">
+                <p>Transaction:</p>
+                <input type="text" id="name">
+            </div>
+            <div class="input">
+                <p>Amount:</p>
+                <input type="number" id="amount">
+            </div>
+            <div class="input">
+                <button class="btn"  data-id="add">Add Funds</button>
+                <button class="btn" data-id="subtract">Subtract Funds</button>
+            </div>
+            <div class="input">
+                <h3>Transaction</h3>
+                <h3>Amount</h3>
+            </div>
+            <div class="max-height">
+                <table>
+                    <thead>
+
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+        <canvas id="my-chart"></canvas>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="db.js"></script>
+    <script src="index.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("service-worker.js").then(reg => {
+                    console.log("We found your service worker file!", reg);
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>

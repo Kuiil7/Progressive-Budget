@@ -1,0 +1,26 @@
+{
+  "name": "progressive-budget",
+  "version": "1.0.0",
+  "description": "Add functionality to our existing Budget Tracker application to allow for offline access and functionality.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:darh0ky/Progressive-Budget.git"
+  },
+  "author": "J A M",
+  "license": "ISC",
+  "bugs": {
+    "url": "git@github.com:darh0ky/Progressive-Budget.gitissues"
+  },
+  "homepage": "git@github.com:darh0ky/Progressive-Budget.git#readme"
+}
