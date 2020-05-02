@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
+    "dotenv": "^8.2.0",
     "mongoose": "^5.9.10",
     "react-scripts": "^3.4.1"
   },

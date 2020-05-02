@@ -8,9 +8,9 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static("public"));
+app.use(express.static("./public"));
 
-mongoose.connect(process.env.MONGOLAB_URI || "mongodb://localhost/budget", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
