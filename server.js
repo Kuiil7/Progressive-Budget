@@ -1,14 +1,16 @@
 const express = require("express");
 const mongoose = require("mongoose");
+require("dotenv").config();
 
-const PORT = process.env.PORT || 3000;
+
+const PORT = process.env.PORT || 8080;
 
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use('/',express.static(path.join(_dirname, '/client/build')));
+app.use(express.static("./public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
     useNewUrlParser: true,

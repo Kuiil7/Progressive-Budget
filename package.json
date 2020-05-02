@@ -4,9 +4,9 @@
   "description": "Add functionality to our existing Budget Tracker application to allow for offline access and functionality.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
     "dotenv": "^8.2.0",
-    "mongoose": "^5.9.10",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.11",
     "react-scripts": "^3.4.1"
   },
   "devDependencies": {},
