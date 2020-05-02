@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 const app = express();
 
@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budgethomework", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/progressivebudget", {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
@@ -19,6 +19,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budgethomework"
 // routes
 app.use(require("./routes/app.js"));
 
-app.listen(PORT, () => {
-    console.log(`App running on port ${PORT}!`);
+app.listen(port, () => {
+    console.log(`App running on port ${port}!`);
 });
