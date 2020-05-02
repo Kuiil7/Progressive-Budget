@@ -5,11 +5,11 @@ const Schema = mongoose.Schema;
 const transactionSchema = new Schema({
     name: {
         type: String,
-        required: "transaction name"
+        required: "Enter a name for transaction"
     },
     value: {
         type: Number,
-        required: "amount"
+        required: "Enter an amount"
     },
     date: {
         type: Date,
