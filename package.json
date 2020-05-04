@@ -5,7 +5,9 @@
   "main": "server.js",
   "dependencies": {
     "compression": "^1.7.4",
-    "moments": "0.0.2"
+    "moments": "0.0.2",
+    "mongoose": "^5.9.11",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {},
   "scripts": {
