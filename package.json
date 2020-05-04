@@ -1,25 +1,22 @@
 {
-  "name": "budget-app",
+  "name": "progressive-budget",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unit 18 PWA Homework - Online/Offline Budget Trackers",
   "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/darh0ky/Progressive-Budget.git"
   },
-  "author": "",
+  "author": "J A M",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/darh0ky/Progressive-Budget/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.5.15"
-  }
+  "homepage": "https://github.com/darh0ky/Progressive-Budget#readme"
 }

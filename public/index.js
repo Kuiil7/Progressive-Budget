@@ -30,7 +30,7 @@ function populateTable() {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${transaction.name}</td>
-      <td>${transaction.value}</td>
+      <td>$${transaction.value}</td>
     `;
 
     tbody.appendChild(tr);
@@ -67,9 +67,9 @@ function populateChart() {
       labels,
       datasets: [
         {
-          label: "Total Over Time",
+          label: "Lifetime Total",
           fill: true,
-          backgroundColor: "#6666ff",
+          backgroundColor: "#008000",
           data
         }
       ]
