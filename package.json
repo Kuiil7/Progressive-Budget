@@ -1,24 +1,25 @@
 {
-  "name": "progressive-budget",
+  "name": "budget-app",
   "version": "1.0.0",
-  "description": "an online/offline budget tracker app",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "mongoose": "^5.9.11"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darh0ky/Progressive-Budget.git"
+    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
-  "author": "J A M",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/darh0ky/Progressive-Budget/issues"
+    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
-  "homepage": "https://github.com/darh0ky/Progressive-Budget#readme"
+  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15"
+  }
 }
