@@ -4,7 +4,8 @@
   "description": "* Using a previously created Budget Tracker application, a user is able to update information while online/offline. Updated application has offline access and functionality.",
   "main": "server.js",
   "dependencies": {
-    "compression": "^1.7.4"
+    "compression": "^1.7.4",
+    "moments": "0.0.2"
   },
   "devDependencies": {},
   "scripts": {
