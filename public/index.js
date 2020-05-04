@@ -1,5 +1,3 @@
-
-
 let transactions = [];
 let myChart;
 
@@ -71,7 +69,7 @@ function populateChart() {
         {
           label: "Lifetime Total",
           fill: true,
-          backgroundColor: "#82b74b",
+          backgroundColor: "#008000",
           data
         }
       ]

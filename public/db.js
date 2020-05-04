@@ -1,5 +1,4 @@
 let db;
-
 const request = indexedDB.open("budget", 1);
 
 request.onupgradeneeded = function (event) {
@@ -9,13 +8,15 @@ request.onupgradeneeded = function (event) {
 
 request.onsuccess = function (event) {
   db = event.target.result;
-    if (navigator.onLine) {
+
+  // check if app is online before reading from db
+  if (navigator.onLine) {
     checkDatabase();
   }
 };
 
 request.onerror = function (event) {
-  console.log("Error?! " + event.target.errorCode);
+  console.log("Woops! " + event.target.errorCode);
 };
 
 function saveRecord(record) {
@@ -56,4 +57,5 @@ function deletePending() {
   store.clear();
 }
 
+// listen for app coming back online
 window.addEventListener("online", checkDatabase);
