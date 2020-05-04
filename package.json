@@ -1,7 +1,7 @@
 {
   "name": "progressive-budget",
   "version": "1.0.0",
-  "description": "* Using a previously created Budget Tracker application, a user is able to update information while online/offline. Updated application has offline access and functionality.",
+  "description": "Online/Offline Budget App",
   "main": "server.js",
   "dependencies": {
     "compression": "^1.7.4",
