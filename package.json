@@ -1,13 +1,10 @@
 {
   "name": "progressive-budget",
   "version": "1.0.0",
-  "description": "Online/Offline Budget App",
+  "description": "an online/offline budget tracker app",
   "main": "server.js",
   "dependencies": {
-    "compression": "^1.7.4",
-    "moments": "0.0.2",
-    "mongoose": "^5.9.11",
-    "morgan": "^1.10.0"
+    "mongoose": "^5.9.11"
   },
   "devDependencies": {},
   "scripts": {

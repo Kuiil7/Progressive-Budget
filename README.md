@@ -1,30 +1,47 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Unit-18-PWA-Homework
+Unit 18 PWA Homework - Online/Offline Budget Trackers
 
-* Using a previously created Budget Tracker application, a user is able to update information while online/offline. Updated application has offline access and functionality.
+![Bootcamp Homework 18 shield](https://img.shields.io/badge/Bootcamp-Unit_18_PWA_Homework-green)  
 
-* The user is able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, the total will be populated when brought back online.
+
+[Link to deployed app](https://shrouded-reaches-04951.herokuapp.com/) 
+(Click to open app)
+
+GitHub Repo:    https://github.com/cbush2014/Unit-18-PWA-Homework
+Portfolio Page:   https://cbush2014.github.io/
+
+
+## Table of contents
+* [General info](#general-info)  
+* [User Story](#user-story)  
+* [Instruction](#instructions)  
+* [Business Context](#business-contect)  
+* [Acceptance Criteria](#acceptance)  
+* [Screenshots](#screenshots)  
+* [Features](#features)  
+
+## General info
+Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+
+## User Story
+AS AN avid traveller
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling
+
+## Business Context
+Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+
+## Screenshots
+![Example screenshot](./public/assets/images/offline.png)
+![Example screenshot](./public/assets/images/online.png)
+
+## Features
 
 Offline Functionality:
 
-  * Enter deposits and expenses offline
+  * Enter deposits offline
+  * Enter expenses offline
 
 When brought back online:
 
-  * Offline entries added to tracker.
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-## Deployed Application
-
-("https://calm-oasis-32152.herokuapp.com/
-")
-
-* Offline image:
-
-![Offline](https://github.com/Jupton2020/PWA-Budget-Tracker/blob/master/public/assets/img/Screen%20Shot%202020-02-05%20at%208.48.23%20PM.png)
-
-* Online image:
-
-![Offline](https://github.com/Jupton2020/PWA-Budget-Tracker/blob/master/public/assets/img/Screen%20Shot%202020-02-05%20at%208.50.55%20PM.png)
+  * Offline entries should be added to tracker.
