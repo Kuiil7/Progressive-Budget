@@ -30,7 +30,7 @@ function populateTable() {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${transaction.name}</td>
-      <th>$${transaction.value}</th>
+      <td>${transaction.value}</td>
     `;
 
     tbody.appendChild(tr);
@@ -67,9 +67,9 @@ function populateChart() {
       labels,
       datasets: [
         {
-          label: "Lifetime Total",
+          label: "Total Over Time",
           fill: true,
-          backgroundColor: "#008000",
+          backgroundColor: "#6666ff",
           data
         }
       ]
@@ -80,7 +80,7 @@ function populateChart() {
 function sendTransaction(isAdding) {
   const nameEl = document.querySelector("#t-name");
   const amountEl = document.querySelector("#t-amount");
-  const errorEl = document.querySelector("form .error");
+  const errorEl = document.querySelector(".error");
 
   // validate form
   if (nameEl.value === "" || amountEl.value === "") {
@@ -147,9 +147,4 @@ document.querySelector("#add-btn").addEventListener("click", function(event) {
 document.querySelector("#sub-btn").addEventListener("click", function(event) {
   event.preventDefault();
   sendTransaction(false);
-});
-
-document.querySelector("#del-btn").addEventListener("click", function(event) {
-  event.preventDefault();
-  deletePending();
 });

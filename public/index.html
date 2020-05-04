@@ -5,28 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="theme-color" content="#317EFB" />
-    <link rel="manifest" href="manifest.webmanifest">
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="/style.css" />
-    <title>Progressive Budget Tracker</title>
+    <title>Budget Tracker</title>
   </head>
   <body>
     <div class="wrapper">
-      <h1>Progressive Budget Tracker</h1>
-    </br>   </br>
-
       <div class="total">
-        <div>Current Balance: $<span id="total">0</span></div>
+        <div>Your total is: $<span id="total">0</span></div>
       </div>
-<hr>
+
       <form>
-        <label for="t-name">Transaction:</label>
+        <label for="t-name">Transaction Name:</label>
         <input type="text" id="t-name" placeholder="Name" />
-      </br>   </br>
-        <label for="t-amount">Transaction</label>
+
+        <label for="t-amount">Transaction Amount:</label>
         <input type="number" min="0" id="t-amount" placeholder="Amount" />
 
         <div class="transaction-buttons">
@@ -34,7 +31,6 @@
           <button id="sub-btn">
             <i class="fa fa-minus"></i> Subtract Funds
           </button>
-         
         </div>
         <p role="alert" class="error"></p>
       </form>
@@ -55,15 +51,16 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="/db.js"></script>
     <script src="/index.js"></script>
-    
-    <script>  
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("service-worker.js").then(reg => {
-            console.log("We found your service worker file!", reg);
-          });
-        });
-      }
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("service-worker.js").then(reg => {
+            console.log("We found your service worker file!", reg);
+          });
+        });
+      }
     </script>
+
   </body>
 </html>
