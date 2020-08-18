@@ -1,4 +1,4 @@
-# PWA: Progressive Budget 
+# PWA: Progressive Budget
 
 ![APP SCREENSHOT](prog_bud.png)
 
