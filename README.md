@@ -14,7 +14,7 @@ Created with: HTML, CSS, Node.js, Express.js, Heroku, Charts.js, Mongoose, Mongo
 ## DEPLOYED APPLICATION
 
 Click to view:
-![APP DEMO](https://mighty-hollows-81861.herokuapp.com/)
+     [click here to view](https://mighty-hollows-81861.herokuapp.com/)
 
 ## SCREENSHOT
 
