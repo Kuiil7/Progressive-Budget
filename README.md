@@ -9,7 +9,9 @@
 
 As a result, the user is allowed a convenient and accessible method of offline access and functionality to their budget application.
 
-Created with: HTML, CSS, Node.js, Express.js, Heroku, Charts.js, Mongoose, MongoDB, and jQuery
+Created with: HTML, CSS, Node.js, Express.js, Heroku, Charts.js, Mongoose, MongoDB, and jQuery.
 
 ##### Deployed Application
 [APP DEMO](https://mighty-hollows-81861.herokuapp.com/)
+
+![APP SCREENSHOT](prod_bud.png)
