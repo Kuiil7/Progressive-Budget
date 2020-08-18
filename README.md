@@ -5,7 +5,7 @@
 ## FUNCTIONALNITY
 
      1. Offline: Enter deposits and expenses offline.
-     2. Online: Offline entries added to tracker
+     2. Online: Offline entries added to tracker.
 
 As a result, the user is allowed a convenient and accessible method of offline access and functionality to their budget application.
 
