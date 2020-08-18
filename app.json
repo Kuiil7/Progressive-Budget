@@ -1,7 +1,0 @@
-{
-    "name": "progressive-budget",
-    "description": "Online/Offline Budget Tracker",
-    "repository": "https://github.com/Kuiil7/Progressive-Budget/",
-    "logo": "https://node-js-sample.herokuapp.com/node.png",
-    "keywords": ["node", "express", "static"]
-  }
