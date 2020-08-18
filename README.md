@@ -1,10 +1,8 @@
-# PWA: Progressive Budget
+# PWA: Progressive Budget 
 
 ![APP SCREENSHOT](prog_bud.png)
 
-## PROGRESSIVE BUDGET
-
-> Allows user to add expenses and deposits to their budget with or without an internet connection. When entering transactions offline, the total will be populated when brought back online. Useful when you are on the go and lack internet access.
+> A Progressive Web App that allows user to add expenses and deposits to their budget with or without an internet connection. When entering transactions offline, the total will be populated when brought back online. Useful when you are on the go and lack internet access.
 
 ## FUNCTIONALNITY
 
