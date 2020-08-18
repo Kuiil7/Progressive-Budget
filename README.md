@@ -11,7 +11,16 @@
 
 As a result, the user is allowed a convenient and accessible method of offline access and functionality to their budget application.
 
-Created with: HTML, CSS, Node.js, Express.js, Heroku, Charts.js, Mongoose, MongoDB, and jQuery.
+## BUILT WITH
+* HTML
+* CSS
+* Node.js
+* Express.js
+* Heroku
+* Charts.js
+* Mongoose
+* MongoDB
+* jQuery
 
 ## DEPLOYED APPLICATION
 
