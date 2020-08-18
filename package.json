@@ -1,7 +1,7 @@
 {
   "name": "progressive-budget",
   "version": "1.0.0",
-  "description": "Unit 18 PWA Homework - Online/Offline Budget Trackers",
+  "description": "Online/Offline Budget Tracker",
   "main": "server.js",
   "devDependencies": {},
   "scripts": {
