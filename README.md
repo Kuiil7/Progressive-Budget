@@ -23,3 +23,4 @@ As a result, the user is allowed a convenient and accessible method of offline a
 ## DEPLOYED APPLICATION
 
 [APP DEMO, click here to view](https://mighty-hollows-81861.herokuapp.com/)
+![SCREENSHOT](prog-budget-screenshot.png)
